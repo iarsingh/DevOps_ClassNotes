@@ -1,3 +1,33 @@
+# Kubernetes
+
+Cluster setup guides plus a large set of topic subfolders covering the core Kubernetes objects
+and workflows: workloads, storage, config, networking, deployment strategies, monitoring,
+logging, and troubleshooting.
+
+## Subfolders
+
+- [`Deployment Strategies/`](Deployment%20Strategies) — Blue-green and canary deployment patterns
+  (including Istio, native, and nginx-ingress based canary variants).
+- [`Ingress/`](Ingress) — Nginx ingress controller setup and routing rules.
+- [`hpa/`](hpa) — Horizontal Pod Autoscaler setup with the metrics server.
+- [`StatefulSets/`](StatefulSets) — StatefulSet, headless service, and web manifests.
+- [`DemonSets/`](DemonSets) — DaemonSet concepts and a demo manifest.
+- [`PersistentVolume/`](PersistentVolume) — PV/PVC static and dynamic provisioning examples.
+- [`configMaps/`](configMaps) — ConfigMap creation and mounting into pods.
+- [`Monitoring/`](Monitoring) — Prometheus and kube-state-metrics manifests.
+- [`logging/`](logging) — EFK (Elasticsearch/Fluentd/Kibana) logging stack.
+- [`nodes/`](nodes) — Node object notes and `kubectl` node commands.
+- [`troubleshooting/`](troubleshooting) — Cluster, control-plane, node, and networking debugging notes.
+- [`Jenkins-Kube/`](Jenkins-Kube) — Provisioning a K8s cluster on AWS and deploying to it via Jenkins/Ansible.
+- `Helm/`, `Blue-GreenDeployment/`, `StatefulSet/`, `WordpressApp/`, `kubeIntroduction/`, `commandHistory/` —
+  smaller single-file notes on Helm, an alternate blue-green demo, StatefulSets, a WordPress app
+  deployment, a Kubernetes intro, and captured lab command history.
+
+The cluster install steps below (Ubuntu and CentOS via `kubeadm`) remain the original content of
+this file.
+
+---
+
 Install Kubernetes on Ubuntu 18.04 LTS
 Step1: On All Machines ( Master & All nodes ):
 ### INSTALL DOCKER 
