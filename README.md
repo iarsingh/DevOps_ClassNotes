@@ -1,5 +1,9 @@
 # DevOps Class Notes
 
+<!-- repository-summary -->
+DevOps notes, interview material, scripts, and labs covering Linux, Git, Jenkins, Docker, Ansible, Kubernetes, and monitoring.
+<!-- /repository-summary -->
+
 A personal collection of class notes, cheat-sheets, playbooks, pipeline scripts, and lab
 walkthroughs collected while learning core DevOps tooling: source control, CI/CD,
 configuration management, containers, orchestration, and monitoring. Most content is raw
