@@ -1,5 +1,26 @@
 # DevOps Class Notes
 
+<!-- project-guide:start -->
+## Project guide
+
+[Project architecture](PROJECT_ARCHITECTURE.md) · [Interview questions and answers](INTERVIEW_QA.md)
+
+Use the architecture document for the component diagram, implementation boundaries, and verification entry points. The interview guide includes source-backed answers and project walkthroughs.
+
+### Implementation map
+
+| Component | Responsibility |
+| --- | --- |
+| [`Kubernetese/Ingress/rm-nginx-ingress-controller.sh`](Kubernetese/Ingress/rm-nginx-ingress-controller.sh) | Implementation or supporting configuration |
+| [`Kubernetese/hpa/metrics-server/rm-metrics-server.sh`](Kubernetese/hpa/metrics-server/rm-metrics-server.sh) | Implementation or supporting configuration |
+| [`Ansible/README.md`](Ansible/README.md) | Project explanations or operating notes |
+| [`CICD pipeline/README.md`](CICD%20pipeline/README.md) | Project explanations or operating notes |
+| [`CloudSetup/README.md`](CloudSetup/README.md) | Project explanations or operating notes |
+
+Setup and examples are described in the existing project notes below. Consult the component-specific manifests before assuming a single launch command.
+
+<!-- project-guide:end -->
+
 <!-- repository-summary -->
 DevOps notes, interview material, scripts, and labs covering Linux, Git, Jenkins, Docker, Ansible, Kubernetes, and monitoring.
 <!-- /repository-summary -->
